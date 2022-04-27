@@ -119,6 +119,9 @@ TOGGLE_DOC = os.environ.get("TOGGLE_DOC", "togglefile")
 RCLONE_COMMAND = os.environ.get("RCLONE_COMMAND", "rclone")
 HELP_COMMAND = os.environ.get("HELP_COMMAND", "help")
 BOT_START_TIME = time.time()
+# Website referer
+REFERER = os.environ.get("REFERER", "")
+REFERER_URL = os.environ.get("REFERER_URL", "")
 # dict to control uploading and downloading
 gDict = defaultdict(lambda: [])
 # user settings dict #ToDo
