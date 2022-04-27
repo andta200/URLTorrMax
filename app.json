@@ -33,6 +33,14 @@
       "description": "should be an integer. ID of owner of bot",
       "value": ""
     },
+    "REFERER_URL": {
+      "description": "403 Hatası veren siteler için",
+      "value": ""
+    },
+    "REFERER": {
+      "description": "403 Hatası veren siteler için",
+      "value": ""
+    },
     "UPLOAD_AS_DOC": {
       "description": "True/False. If true all files will be uploaded as documents. Default is False.",
       "required": false
