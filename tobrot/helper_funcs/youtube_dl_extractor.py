@@ -8,7 +8,7 @@ import logging
 import os
 
 import pyrogram.types as pyrogram
-from tobrot import DEF_THUMB_NAIL_VID_S, LOGGER
+from tobrot import DEF_THUMB_NAIL_VID_S, LOGGER, REFERER, REFERER_URL
 from tobrot.helper_funcs.display_progress import humanbytes
 
 
@@ -36,6 +36,9 @@ async def extract_youtube_dl_formats(
     if "mail.ru" in url:
         command_to_exec.append("--referer")
         command_to_exec.append("https://my.mail.ru/")
+    if REFERER in url:
+        command_to_exec.append("--referer")
+        command_to_exec.append("https://{REFERER_URL}/")
     if yt_dl_user_name is not None:
         command_to_exec.append("--username")
         command_to_exec.append(yt_dl_user_name)
