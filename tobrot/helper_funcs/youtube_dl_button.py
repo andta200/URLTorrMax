@@ -13,7 +13,7 @@ import time
 from datetime import datetime
 
 import pyrogram
-from tobrot import AUTH_CHANNEL, DOWNLOAD_LOCATION, LOGGER, GYTDL_COMMAND
+from tobrot import AUTH_CHANNEL, DOWNLOAD_LOCATION, LOGGER, GYTDL_COMMAND, REFERER, REFERER_URL
 from tobrot.helper_funcs.upload_to_tg import upload_to_gdrive, upload_to_tg
 
 
@@ -142,6 +142,9 @@ async def youtube_dl_call_back(bot, update):
     if "mail.ru" in youtube_dl_url:
         command_to_exec.append("--referer")
         command_to_exec.append("https://my.mail.ru/")
+    if REFERER in youtube_dl_url:
+        command_to_exec.append("--referer")
+        command_to_exec.append("https://{REFERER_URL}/")
     if "hotstar" in youtube_dl_url:
         command_to_exec.append("--geo-bypass-country")
         command_to_exec.append("IN")
