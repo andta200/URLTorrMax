@@ -27,7 +27,7 @@
     },
     "AUTH_CHANNEL": {
       "description": "should be an integer. The BOT API ID of the Telegram Group, where the Leecher should work., Put Group ID",
-      "value": ""
+      "value": "-100"
     },
     "OWNER_ID": {
       "description": "should be an integer. ID of owner of bot",
@@ -35,11 +35,11 @@
     },
     "REFERER_URL": {
       "description": "403 Hatası veren siteler için",
-      "value": ""
+      "value": "stream.dizipal227.com"
     },
     "REFERER": {
       "description": "403 Hatası veren siteler için",
-      "value": ""
+      "value": "dizipal227.com"
     },
     "UPLOAD_AS_DOC": {
       "description": "True/False. If true all files will be uploaded as documents. Default is False.",
@@ -78,14 +78,17 @@
     },
     "LEECH_COMMAND": {
       "description": "Enter your custom leech command like /leech@botname and so on. Default is /leech",
+      "value": "leech"
       "required": false
     },
     "SAVE_THUMBNAIL": {
       "description": "For custom thumbnail Command. default is /savethumbnail",
+      "value": "savethumb"
       "required": false
     },
     "CLEAR_THUMBNAIL": {
       "description": "For Delete Thumbnail Command. Default is /clearthumbnail",
+      "value": "clearthumb"
       "required": false
     },
     "INDEX_LINK": {
@@ -94,30 +97,37 @@
     },
     "GLEECH_COMMAND": {
       "description": "Enter your custom gleech command like /gleech1@urgroupname and so on. Default is /gleech",
+      "value": "gleech"
       "required": false
     },
     "TELEGRAM_LEECH_COMMAND_G": {
       "description": "Enter your custom tleech command like /tleech1@urgroupname and so on. Default is /tleech",
+      "value": "tleech"
       "required": false
     },
     "YTDL_COMMAND": {
-      "description": "Enter your custom ytdl command like ytdl1@urgroupname and so on. Default is /ytdl.",
+      "description": "Enter your custom ytdl command like ytdl1@urgroupname and so on. Default is /ytdlp.",
+      "value": "ytdlp"
       "required": false
     },
     "PYTDL_COMMAND_G": {
       "description": "Enter your custom pytdl command like pytdl1@urgroupname and so on. Default is /pytdl.",
+      "value": "pytdl"
       "required": false
     },
     "CANCEL_COMMAND_G": {
       "description": "Enter your custom cancel command like cancel@urgroupname and so on. Default is /cancel.",
+      "value": "cancel"
       "required": false
     },
     "GET_SIZE_G": {
       "description": "Enter your custom getsize command like getsize@urgroupname and so on. Default is /getsize.",
+      "value": "getsize"
       "required": false
     },
     "RCLONE_CONFIG": {
       "description": "Enter your copied text from rclone config. Compulsory for /gleech as well as /tleech command ",
+      "value": "rclone"
       "required": false
     },
     "DESTINATION_FOLDER": {
