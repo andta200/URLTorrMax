@@ -145,6 +145,9 @@ async def youtube_dl_call_back(bot, update):
     if REFERER in youtube_dl_url:
         command_to_exec.append("--referer")
         command_to_exec.append("https://{REFERER_URL}/")
+    if "cdn.jwplayer.com" in youtube_dl_url:
+        command_to_exec.append("--referer")
+        command_to_exec.append("https://gain.tv/")
     if "hotstar" in youtube_dl_url:
         command_to_exec.append("--geo-bypass-country")
         command_to_exec.append("IN")
