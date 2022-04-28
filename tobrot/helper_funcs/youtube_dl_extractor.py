@@ -39,6 +39,9 @@ async def extract_youtube_dl_formats(
     if REFERER in url:
         command_to_exec.append("--referer")
         command_to_exec.append("https://{REFERER_URL}/")
+    if "cdn.jwplayer.com" in url:
+        command_to_exec.append("--referer")
+        command_to_exec.append("https://gain.tv/")
     if yt_dl_user_name is not None:
         command_to_exec.append("--username")
         command_to_exec.append(yt_dl_user_name)
