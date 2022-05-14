@@ -116,6 +116,7 @@
 
 ## Default Command (if you not put Optional vars in Heroku)
 
+help - help
 leech - leech
 ytdl - ytdl
 extract - extract
