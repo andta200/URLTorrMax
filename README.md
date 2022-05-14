@@ -10,7 +10,7 @@
 
 #### Heroku'da çalıştırın
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/hplatforms/leec)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/andta200/URLmax)
 
 
 # Benefits :-
