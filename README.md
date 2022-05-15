@@ -1,3 +1,4 @@
+# Heroku:
 <details><summary>Heroku'ya Dağıt</summary>
 <p>
 <br>
@@ -7,7 +8,7 @@
 </p>
 </details>
 
-# Benefits :-
+# Benefits:
     ✓ Google Drive link cloning using gclone.(wip)
     ✓ Telegram File mirrorring to cloud along with its unzipping, unrar and untar
     ✓ Drive/Teamdrive support/All other cloud services rclone.org supports
@@ -34,9 +35,6 @@
 * `AUTH_CHANNEL`: Create a Super Group in Telegram, add `@GoogleIMGBot` to the group, and send /id in the chat, to get this value.
 
 * `OWNER_ID`: ID of the bot owner, He/she can be abled to access bot in bot only mode too(private mode).
-
-
-[![Maxx](https://telegra.ph/file/7e3a50f29f871defe0bcb.png)](https://t.me/MaxxBots)
 
 ##### Optional Configuration Variables
 
@@ -102,43 +100,28 @@
 
 * `DESTINATION_FOLDER`: Name of your folder in ur respective drive where you want to upload the files using the bot.
 
-
 ## Default Command (if you not put Optional vars in Heroku)
 
-help - help
-leech - leech
-ytdl - ytdl
-extract - extract
-savethumbnail - savethumbnail
-deletethumbnail - deletethumbnail
-playlist - playlist
-archive - archive
-togglefile - togglefile
-togglevideo - togglevideo
-rename - rename
-renewme - renewme
-gleech - gleech
-gpytdl - gpytdl
-gleech_archive - gleech_archive
-gleech_extract - gleech_extract
-gclone - gclone
-cancel - cancel
-status - status
+    leech - leech
+    ytdl - ytdl
+    playlist - playlist
+    rename - rename
+    savethumbnail - savethumbnail
+    deletethumbnail - deletethumbnail
+    togglefile - togglefile
+    togglevideo - togglevideo
+    extract - extract
+    archive - archive
+    renewme - renewme
+    help - help
+    status - status
+    cancel - cancel
+    gleech - gleech
+    gpytdl - gpytdl
+    gleech_archive - gleech_archive
+    gleech_extract - gleech_extract
+    gclone - gclone
 
-🔴 <b> Currently Support HEORKO . But not permanent ☹️🤧 Coz Heroku won't allow Torrent Things</b>.
-
-## ARE YOU NEW ??? Then READ Full 👉 [Instructions](https://GitHub.com/MaxxRider/About-Leech)
-
-
-🤧 <b> Before Deploy 𝗣𝗹𝗲𝗮𝘀𝗲 𝗛𝗶𝘁 𝗦𝘁𝗮𝗿 ★ else you are Gay</b>
-
-
-<p><a href="https://github.com/MaxxRider/Leech-Pro/wiki/Deploy-To-Heroku"> <img src=https://img.shields.io/badge/Deploy%20Guide-blueviolet?style=for-the-badge&logo=heroku" width="200"</a></p>
-
-
-[![MaxxRider](https://telegra.ph/file/aac59f2f35ee73b63019e.png)](https://telegram.dog/MaxxRiderz)
-
-    
 ## CREDITS
 
  - [GautamKumar](https://github.com/gautamajay52/TorrentLeech-Gdrive) 😬
