@@ -1,25 +1,17 @@
-![MAXX LEECH V2](https://telegra.ph/file/af8f0596124714a17e4e2.png)
-
-## 👉 [Orginal Repository](https://github.com/gautamajay52/TorrentLeech-Gdrive)
-
-![Maxx](https://telegra.ph/file/d18fa7fa33f26f733adb9.png)
-
-## **Don't Kill Heroku please ☹️**
-
-[![MAXX LEECH](https://telegra.ph/file/29d788a656dd517eafd0a.png)](https://telegram.dog/MaxxBots)
-
-#### Heroku'da çalıştırın
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/andta200/URLmax)
-
+<details><summary>Heroku'ya Dağıt</summary>
+<p>
+<br>
+<a href="https://heroku.com/deploy">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
+</p>
+</details>
 
 # Benefits :-
     ✓ Google Drive link cloning using gclone.(wip)
     ✓ Telegram File mirrorring to cloud along with its unzipping, unrar and untar
     ✓ Drive/Teamdrive support/All other cloud services rclone.org supports
-    ✓ Unzip
-    ✓ Unrar
-    ✓ Untar
+    ✓ Unzip, Unrar, Untar
     ✓ Custom file name
     ✓ Custom commands
     ✓ Get total size of your working cloud directory
@@ -30,9 +22,6 @@
     ✓ Added support for youtube playlist 😐
     ✓ Renaming of Telegram files support added. 😐
     ✓ Changing rclone destination config on fly (By using `/rlcone` in private mode)
-    ✓
-
-[![Maxx](https://telegra.ph/file/f3f3b950c2904756bb201.png)](https://t.me/MaxxRiderz) 👇
 
 ##### Mandatory Variables
 
@@ -135,8 +124,6 @@ gleech_extract - gleech_extract
 gclone - gclone
 cancel - cancel
 status - status
-
-[![Maxx](https://telegra.ph/file/3066ec5102c94b8135e09.png)](https://t.me/MaxxBotChat)
 
 🔴 <b> Currently Support HEORKO . But not permanent ☹️🤧 Coz Heroku won't allow Torrent Things</b>.
 
