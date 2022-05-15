@@ -1,4 +1,4 @@
-# Heroku:
+# HEROKU
 <details><summary>Heroku'ya Dağıt</summary>
 <p>
 <br>
@@ -8,7 +8,7 @@
 </p>
 </details>
 
-# Benefits:
+# BENEFITS
     ✓ Google Drive link cloning using gclone.(wip)
     ✓ Telegram File mirrorring to cloud along with its unzipping, unrar and untar
     ✓ Drive/Teamdrive support/All other cloud services rclone.org supports
@@ -24,7 +24,7 @@
     ✓ Renaming of Telegram files support added. 😐
     ✓ Changing rclone destination config on fly (By using `/rlcone` in private mode)
 
-##### Mandatory Variables
+# MANDATORY VARIABLES
 
 * `TG_BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
 
@@ -36,7 +36,7 @@
 
 * `OWNER_ID`: ID of the bot owner, He/she can be abled to access bot in bot only mode too(private mode).
 
-##### Optional Configuration Variables
+# OPTIONAL CONFIGURATION VARIABLES
 
 * `DOWNLOAD_LOCATION`
 
@@ -100,7 +100,7 @@
 
 * `DESTINATION_FOLDER`: Name of your folder in ur respective drive where you want to upload the files using the bot.
 
-## Default Command (if you not put Optional vars in Heroku)
+# DEFAULT COMMAND (if you not put Optional vars in Heroku)
 
     leech - leech
     ytdl - ytdl
@@ -122,7 +122,7 @@
     gleech_extract - gleech_extract
     gclone - gclone
 
-## CREDITS
+# CREDITS
 
  - [GautamKumar](https://github.com/gautamajay52/TorrentLeech-Gdrive) 😬
  - [SpEcHiDe](https://github.com/SpEcHiDe/PublicLeech) for his wonderful code😚
