@@ -108,12 +108,12 @@
       "required": false
     },
     "YTDL_COMMAND": {
-      "description": "Enter your custom ytdl command like ytdl1@urgroupname and so on. Default is /ytdlp.",
-      "value": "ytdlp",
+      "description": "Enter your custom ytdl command like ytdl1@urgroupname and so on. Default is /ytdl",
+      "value": "ytdl",
       "required": false
     },
     "PYTDL_COMMAND_G": {
-      "description": "Enter your custom pytdl command like pytdl1@urgroupname and so on. Default is /pytdl.",
+      "description": "Enter your custom pytdl command like pytdl1@urgroupname and so on. Default is /pytdl",
       "value": "pytdl",
       "required": false
     },
