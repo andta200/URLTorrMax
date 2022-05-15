@@ -54,6 +54,7 @@
 
  (if you not put Optional vars in Heroku)
 
+    start - start
     leech - leech
     ytdl - ytdl
     playlist - playlist
