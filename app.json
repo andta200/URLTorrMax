@@ -35,14 +35,15 @@
     },
     "REFERER_URL": {
       "description": "403 Hatası veren siteler için",
-      "value": "stream.dizipal227.com"
+      "value": "stream.dizipal251.com"
     },
     "REFERER": {
       "description": "403 Hatası veren siteler için",
-      "value": "dizipal227.com"
+      "value": "dizipal251.com"
     },
     "UPLOAD_AS_DOC": {
       "description": "True/False. If true all files will be uploaded as documents. Default is False.",
+      "value": "False",
       "required": false
     },
     "CHUNK_SIZE": {
@@ -62,6 +63,7 @@
     },
     "MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START": {
       "description": "should be an integer. Number of seconds to wait before cancelling a torrent.",
+      "value": "300",
       "required": false
     },
     "FINISHED_PROGRESS_STR": {
@@ -83,12 +85,12 @@
     },
     "SAVE_THUMBNAIL": {
       "description": "For custom thumbnail Command. default is /savethumbnail",
-      "value": "savethumb",
+      "value": "savethumbnail",
       "required": false
     },
     "CLEAR_THUMBNAIL": {
       "description": "For Delete Thumbnail Command. Default is /clearthumbnail",
-      "value": "clearthumb",
+      "value": "clearthumbnail",
       "required": false
     },
     "INDEX_LINK": {
